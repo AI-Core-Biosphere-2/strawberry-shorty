@@ -80,7 +80,7 @@ if isinstance(models, dict) and 'models' in models:
     model_list = [model['model'] for model in models['models']]
 
 # Streamlit UI
-st.title("Ollama Model Interface")
+st.title("Ollama Model Interface for Environmental Data Analysis")
 
 # Select model
 model_name = st.selectbox("Select a model:", options=model_list)
